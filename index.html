@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="/styling.css">
+	<script src = "/javascript.js"></script>
+</head>
+<body onload="tabIndex()">
+	
+	<div id = "image">
+		Hover over an image.
+	</div>
+
+	<section class="grid">
+	<img class = "preview" alt = "" src = "/Images/RedBull.webp" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "" src = "/Images/Mercedes.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)"  onblur="unDo()">
+	
+	<img class = "preview" src = "/Images/Astin Martin.webp" alt = "" onmouseover = "upDate(this)" onmouseout = "unDo()"  onfocus="upDate(this)"  onblur="unDo()">
+
+	<img class = "preview" alt = "" src = "/Images/McLaren.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)"  onblur="unDo()">
+
+	<img class = "preview" alt = "" src = "/Images/Alpine.webp" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)"  onblur="unDo()">
+
+	<img class = "preview" alt = "" src = "/Images/Ferrari.png" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)"  onblur="unDo()">
+    </section>
+
+</body>
+</html>
